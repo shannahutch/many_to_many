@@ -21,6 +21,7 @@ ActiveRecord::Schema.define(version: 20140725020443) do
     t.datetime "updated_at"
   end
 
+  #join table with primary_campus added
   create_table "school_relationships", force: true do |t|
     t.integer  "campus_id"
     t.integer  "student_id"
